@@ -5,6 +5,5 @@ provider:
 functions:
   testrisk:
     lang: node
-    handler: ../testrisk
-    image: teopanta1986/testrisk:latest
-
+    handler: ../faas-node-risk-service
+    image: teopanta1986/calculaterisk:latest

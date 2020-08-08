@@ -5,7 +5,7 @@ module.exports = (context, callback) => {
 
     let weather = { 'rainy': 3, 'cloudy': 2, 'snowy': 1, 'sunny': -1, 'other': 0 };
 
-    let index = (1024 / content.airlineId) - (30 * weather[content.condition]);
+    let index = (1024 / content.airlineRanking) - (30 * weather[content.condition]);
 
     callback(undefined, { status: index });
 }
