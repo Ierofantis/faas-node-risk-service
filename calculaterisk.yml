@@ -3,7 +3,8 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
 functions:
-  testrisk:
-    lang: node
+  calculaterisk:
+    lang: node12
     handler: ../faas-node-risk-service
     image: teopanta1986/calculaterisk:latest
+
