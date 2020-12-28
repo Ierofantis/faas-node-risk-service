@@ -1,4 +1,4 @@
-# MobitAir openfaas service
+# Openfaas service
 
 # Installation instructions
 
